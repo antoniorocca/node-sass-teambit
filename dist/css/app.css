@@ -6,7 +6,7 @@
 
 nav {
   display: flex;
-  width: 80%;
+  width: 70%;
   height: 70px;
   border-bottom: 1px solid #4e3d1e;
   margin: auto;
@@ -48,4 +48,168 @@ nav button {
 nav button img {
   margin-right: 5px;
   width: 20px;
+}
+
+#under-nav {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 560px;
+  margin: auto;
+  color: #4e3d1e;
+}
+#under-nav #part1 {
+  margin-top: 40px;
+  height: 520px;
+  width: 50%;
+  background-color: white;
+}
+#under-nav #part1 h1 {
+  font-size: 48px;
+  line-height: 1.5em;
+}
+#under-nav #part1 p {
+  font-size: 23px;
+  line-height: 1.5em;
+  margin-bottom: 40px;
+}
+#under-nav #part1 #buttons {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+}
+#under-nav #part1 #buttons #google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  padding: 3px;
+  font-size: 12px;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+}
+#under-nav #part1 #buttons #google img {
+  width: 20px;
+}
+#under-nav #part1 #buttons #slack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  padding: 3px;
+  font-size: 12px;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+}
+#under-nav #part1 #buttons #slack img {
+  width: 20px;
+}
+#under-nav #part1 #buttons span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#under-nav #part2 {
+  margin-top: 40px;
+  height: 520px;
+  width: 50%;
+  background-color: white;
+}
+#under-nav #part2 img {
+  width: 100%;
+}
+
+#pink {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  height: 1700px;
+  background-color: #fae0e4;
+  color: #4e3d1e;
+}
+#pink .part-top {
+  position: absolute;
+  top: 0;
+  border-bottom: 1px solid #4e3d1e;
+  display: flex;
+  width: 70%;
+  height: 780px;
+  margin-top: 50px;
+}
+#pink .part-top .title {
+  position: absolute;
+  top: 20px;
+  left: 180px;
+  width: 600px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+#pink .part-top .cards-top {
+  display: flex;
+  position: absolute;
+  top: 100px;
+  left: 25px;
+}
+#pink .part-top .cards-top .mini-card {
+  text-align: center;
+  height: 200px;
+  width: 300px;
+}
+#pink .part-top .cards-top .mini-card img {
+  height: 50%;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#pink .part-top .one-img {
+  position: absolute;
+  top: 400px;
+  left: 330px;
+}
+#pink .part-top .one-img img {
+  width: 50%;
+}
+#pink .part-bottom {
+  position: absolute;
+  top: 860px;
+  display: flex;
+  width: 70%;
+  height: 780px;
+  margin-top: 50px;
+}
+#pink .part-bottom .title {
+  position: absolute;
+  top: 20px;
+  left: 180px;
+  width: 600px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+#pink .part-bottom .cards-top {
+  display: flex;
+  position: absolute;
+  top: 100px;
+  left: 25px;
+}
+#pink .part-bottom .cards-top .mini-card {
+  text-align: center;
+  height: 200px;
+  width: 300px;
+}
+#pink .part-bottom .cards-top .mini-card img {
+  height: 50%;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#pink .part-bottom .one-img {
+  position: absolute;
+  top: 400px;
+  left: 330px;
+}
+#pink .part-bottom .one-img img {
+  width: 50%;
 }

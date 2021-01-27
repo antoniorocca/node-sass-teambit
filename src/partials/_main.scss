@@ -1,0 +1,66 @@
+#under-nav {
+    @include d-flex;
+    align-items: center;
+    width: 70%;
+    height: 560px;
+    margin: auto;
+    color: rgb(78, 61, 30);
+    #part1 {
+      margin-top: 40px;
+      height: 520px;
+      width: 50%;
+      background-color: white;
+      h1 {
+        font-size: 48px;
+        line-height: 1.5em;
+       }
+      p {
+        font-size: 23px;
+        line-height: 1.5em;
+        margin-bottom: 40px;
+       }
+     #buttons {
+           @include d-flex;
+           margin-bottom: 30px;
+           align-items: center;
+         #google { 
+             @include gen-button;
+            } 
+          #slack {
+             @include gen-button;
+           } 
+          span {
+             margin-left: 5px;
+             margin-right: 5px;
+           } 
+        }  
+    }
+    #part2 {
+        margin-top: 40px;
+        height: 520px;
+        width: 50%;
+        background-color: white;
+        img {
+            width: 100%;
+        }
+    }
+}
+#pink {
+    @include d-flex;
+    position: relative;
+    justify-content: center;
+    height: 1700px;
+    background-color: rgb(250, 224, 228);
+    color: rgb(78, 61, 30);
+    .part-top {
+        position: absolute;
+        top: 0;    
+        border-bottom: 1px solid rgb(78, 61, 30);
+        @include common-pink-part;
+    }
+    .part-bottom {
+        position: absolute;
+        top: 860px;
+        @include common-pink-part;
+    }      
+}
